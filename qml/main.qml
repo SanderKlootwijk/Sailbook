@@ -9,7 +9,6 @@ import Ubuntu.Content 1.1
 import QtMultimedia 5.8
 import QtSystemInfo 5.0
 import Qt.labs.settings 1.0
-import Ubuntu.DownloadManager 1.2
 import "components"
 import "actions" as Actions
 import "."
@@ -34,7 +33,7 @@ MainView {
     property bool popupBlockerEnabled: true
     property bool fullscreen: false
 
-    property string appVersion : "v2.2"
+    property string appVersion : "v2.3"
     property var myScreenPixelDensity: Screen.pixelDensity
 
     Page {
@@ -72,6 +71,8 @@ MainView {
                 return(true);
             }
 
+            ScrollPositioner{z: 5; mode: "Down";}
+
             WebEngineProfile {
                 id: webContext
 
@@ -87,16 +88,7 @@ MainView {
                 userAgent: myUA
 
                 persistentCookiesPolicy: WebEngineProfile.ForcePersistentCookies
-
-            onDownloadRequested: {
-                console.log("a download was requested with path %1".arg(download.path))
-                download.accept();
             }
-
-            onDownloadFinished: {
-                console.log("a download was finished with path %1".arg(download.path))
-            }
-        }
 
             anchors {
                 fill: parent
@@ -126,6 +118,14 @@ MainView {
             }
 
          ]
+
+                function goToTop(){
+                    runJavaScript("window.scrollTo(0, 0); ")
+            }
+
+                function goToBottom(){
+                    runJavaScript("window.scrollTo(0, " + webview.contentsSize.height +"); ")
+            }
 
             onJavaScriptDialogRequested: function(request) {
 

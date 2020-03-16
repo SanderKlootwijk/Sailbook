@@ -17,7 +17,7 @@ Dialog {
 
             Text {
                 wrapMode: Text.WordWrap
-                text: i18n.tr('Copyright (c) 2018-2019 by <br> Rudi Timmermans  <br><br> E-Mail: <a href=\"mailto://rudi.timmer@mail.ch\">rudi.timmer@mail.ch</a>')
+                text: i18n.tr('Copyright (c) 2018-2020 by <br> Rudi Timmermans  <br><br> E-Mail: <a href=\"mailto://rudi.timmer@mail.ch\">rudi.timmer@mail.ch</a>')
             }
 
             Text {
