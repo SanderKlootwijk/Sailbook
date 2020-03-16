@@ -11,9 +11,5 @@
 
 Sailbook is an unofficial Facebook client for Ubuntu Touch OS based on Webkit
 
-## Translations
-POEditor [https://poeditor.com/join/project/LuP8Zh5Bsz](https://poeditor.com/join/project/LuP8Zh5Bsz)
-
 ## License
-
 GNU General Public License v3.0
