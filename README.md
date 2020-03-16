@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <img src="img/icon.jpg" width="256px" alt="Sailbook">
+  <img src="https://github.com/Xray1870/sailbook/raw/master/img/icon.png" width="256px" alt="Sailbook">
   <br>
   <br>
   Sailbook
