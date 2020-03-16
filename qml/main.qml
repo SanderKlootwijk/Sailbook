@@ -9,6 +9,7 @@ import Ubuntu.Content 1.1
 import QtMultimedia 5.8
 import QtSystemInfo 5.0
 import Qt.labs.settings 1.0
+import Ubuntu.DownloadManager 1.2
 import "components"
 import "actions" as Actions
 import "."
@@ -86,7 +87,16 @@ MainView {
                 userAgent: myUA
 
                 persistentCookiesPolicy: WebEngineProfile.ForcePersistentCookies
+
+            onDownloadRequested: {
+                console.log("a download was requested with path %1".arg(download.path))
+                download.accept();
             }
+
+            onDownloadFinished: {
+                console.log("a download was finished with path %1".arg(download.path))
+            }
+        }
 
             anchors {
                 fill: parent
