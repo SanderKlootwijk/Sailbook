@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Rudi Timmermans
+# This file is distributed under the same license as the Sailbook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sailbook\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-10 06:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/actions/CopyImage.qml:22
+msgid "Copy image"
+msgstr ""
+
+#: ../qml/actions/Copy.qml:22
+msgid "Copy"
+msgstr ""
+
+#: ../qml/actions/SaveImage.qml:22
+msgid "Save image"
+msgstr ""
+
+#: ../qml/actions/CopyLink.qml:22
+msgid "Copy link"
+msgstr ""
+
+#: ../qml/actions/ShareLink.qml:22
+msgid "Share…"
+msgstr ""
+
+#: ../qml/Main.qml:96
+msgid "Copy Link"
+msgstr ""
+
+#: ../qml/Main.qml:104
+msgid "Share Link"
+msgstr ""
+
+#: ../qml/Main.qml:120
+msgid "Copy Image"
+msgstr ""
+
+#: ../qml/Main.qml:126
+msgid "Download Image"
+msgstr ""
+
+#: ../qml/QrCodeDialog.qml:11 ../qml/AboutPage.qml:13
+msgid "Close"
+msgstr ""
+
+#: ../qml/AboutPage.qml:10
+msgid "About Sailbook"
+msgstr ""
+
+#: ../qml/AboutPage.qml:11
+msgid ""
+"Sailbook: version 2.0.2 <br><br> Copyright (c) 2017-2018 <br> by Rudi "
+"Timmermans  <br><br> E-Mail: <a href=\"mailto://rudi.timmer@mail.ch\">rudi."
+"timmer@mail.ch</a> <br><br> Thanks to: <br><br> Alain Molteni <br> for the "
+"icon and splash screen <br><br>Sander Klootwijk,<br> Joan CiberSheep,"
+"<br>Mathijs Veen<br> for testing."
+msgstr ""

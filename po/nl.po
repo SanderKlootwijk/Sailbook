@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Sailbook\n"
+"Language: nl\n"
+
+#: ../qml/actions/CopyImage.qml:22
+msgid "Copy image"
+msgstr "Kopieer afbeelding"
+
+#: ../qml/actions/Copy.qml:22
+msgid "Copy"
+msgstr "Kopieer"
+
+#: ../qml/actions/SaveImage.qml:22
+msgid "Save image"
+msgstr "Bewaar afbeelding"
+
+#: ../qml/actions/CopyLink.qml:22
+msgid "Copy link"
+msgstr "Link kopieren"
+
+#: ../qml/actions/ShareLink.qml:22
+msgid "Share…"
+msgstr "Delen..."
+
+#: ../qml/Main.qml:96
+msgid "Copy Link"
+msgstr "Link Kopieren"
+
+#: ../qml/Main.qml:104
+msgid "Share Link"
+msgstr "Link delen"
+
+#: ../qml/Main.qml:120
+msgid "Copy Image"
+msgstr "Kopieer afbeelding"
+
+#: ../qml/Main.qml:126
+msgid "Download Image"
+msgstr "Afbeelding downloaden"
+
+#: ../qml/QrCodeDialog.qml:11 ../qml/AboutPage.qml:13
+msgid "Close"
+msgstr "Sluiten"
+
+#: ../qml/AboutPage.qml:10
+msgid "About Sailbook"
+msgstr "Over Sailbook"
+
+#: ../qml/AboutPage.qml:11
+msgid "Sailbook: version 2.0.2 <br><br> Copyright (c) 2017-2018 <br> by Rudi Timmermans  <br><br> E-Mail: <a href=\"mailto://rudi.timmer@mail.ch\">rudi.timmer@mail.ch</a> <br><br> Thanks to: <br><br> Alain Molteni <br> for the icon and splash screen <br><br>Sander Klootwijk,<br> Joan CiberSheep,<br>Mathijs Veen<br> for testing."
+msgstr "Sailbook: versie 2.0.2 <br><br> Copyright (c) 2017-2018 <br> door Rudi Timmermans  <br><br> E-Mail: <a href=\"mailto://rudi.timmer@mail.ch\">rudi.timmer@mail.ch</a> <br><br> Met dank aan: <br><br> Alain Molteni <br> for the icon and splash screen <br><br>Sander Klootwijk,<br> Joan CiberSheep,<br>Mathijs Veen<br> voor het testen."
+
