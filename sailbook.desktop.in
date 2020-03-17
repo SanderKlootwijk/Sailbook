@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Sailbook
-Exec=qmlscene %u qml/main.qml
+Exec=qmlscene %u qml/Main.qml
 Icon=img/icon.png
 Terminal=false
 Type=Application
