@@ -33,7 +33,7 @@ MainView {
     property bool popupBlockerEnabled: true
     property bool fullscreen: false
 
-    property string appVersion : "v2.3"
+    property string appVersion : "v2.4"
     property var myScreenPixelDensity: Screen.pixelDensity
 
     Page {
