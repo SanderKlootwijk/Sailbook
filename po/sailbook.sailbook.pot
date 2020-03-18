@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sailbook\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-17 12:41+0000\n"
+"POT-Creation-Date: 2020-03-18 10:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,7 +79,8 @@ msgid "Donate"
 msgstr ""
 
 #: ../qml/AboutPage.qml:50 ../qml/ConfirmDialog.qml:15
-#: ../qml/AlertDialog.qml:13 ../qml/PromptDialog.qml:32
+#: ../qml/AlertDialog.qml:13 ../qml/HttpAuthenticationDialog.qml:41
+#: ../qml/PromptDialog.qml:32
 msgid "OK"
 msgstr ""
 
@@ -88,7 +89,7 @@ msgid "JavaScript Confirmation"
 msgstr ""
 
 #: ../qml/ConfirmDialog.qml:23 ../qml/ContentDownloadDialog.qml:94
-#: ../qml/PromptDialog.qml:43
+#: ../qml/HttpAuthenticationDialog.qml:51 ../qml/PromptDialog.qml:43
 msgid "Cancel"
 msgstr ""
 
@@ -139,6 +140,23 @@ msgstr ""
 
 #: ../qml/actions/Share.qml:4
 msgid "Share"
+msgstr ""
+
+#: ../qml/HttpAuthenticationDialog.qml:7
+msgid "Authentication required."
+msgstr ""
+
+#. TRANSLATORS: %1 refers to the URL of the current website and %2 is a string that the website sends with more information about the authentication challenge (technically called "realm")
+#: ../qml/HttpAuthenticationDialog.qml:9
+msgid "The website at %1 requires authentication. The website says \"%2\""
+msgstr ""
+
+#: ../qml/HttpAuthenticationDialog.qml:21
+msgid "Username"
+msgstr ""
+
+#: ../qml/HttpAuthenticationDialog.qml:31
+msgid "Password"
 msgstr ""
 
 #: ../qml/PromptDialog.qml:7
