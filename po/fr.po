@@ -8,64 +8,143 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sailbook\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-10 06:16+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2020-03-17 12:41+0000\n"
+"PO-Revision-Date: 2020-03-18 09:14+0000\n"
+"Last-Translator: Anne017 <anneonyme017@openmailbox.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../qml/actions/CopyImage.qml:22
-msgid "Copy image"
-msgstr ""
+#: ../qml/MediaAccessDialog.qml:31
+msgid "Permission"
+msgstr "Permission"
 
-#: ../qml/actions/Copy.qml:22
-msgid "Copy"
+#: ../qml/MediaAccessDialog.qml:38
+msgid "Allow this domain to access your camera and microphone?"
+msgstr "Autoriser ce domaine à accéder à votre caméra et à votre microphone ?"
+
+#: ../qml/MediaAccessDialog.qml:39
+msgid "Allow this domain to access your camera?"
+msgstr "Autoriser ce domaine à accéder à votre caméra ?"
+
+#: ../qml/MediaAccessDialog.qml:40
+msgid "Allow this domain to access your microphone?"
+msgstr "Autoriser ce domaine à accéder à votre microphone ?"
+
+#. TRANSLATORS: %1 is the URL of the site requesting access to camera and/or microphone and %2 is the URL of the site that embeds it
+#: ../qml/MediaAccessDialog.qml:48
+msgid "%1 (embedded in %2)"
+msgstr "%1 (inclus dans %2)"
+
+#: ../qml/MediaAccessDialog.qml:72
+msgid "Yes"
+msgstr "Oui"
+
+#: ../qml/MediaAccessDialog.qml:83
+msgid "No"
+msgstr "Non"
+
+#: ../qml/AboutPage.qml:9
+msgid "About Sailbook "
+msgstr "À propos de Sailbook"
+
+#: ../qml/AboutPage.qml:10
+msgid "This is a unofficial Facebook Client for Ubuntu Touch."
+msgstr "Il s'agit d'un client Facebook non officiel pour Ubuntu Touch."
+
+#: ../qml/AboutPage.qml:20
+msgid ""
+"Copyright (c) 2018-2020 by <br> Rudi Timmermans  <br><br> E-Mail: <a href="
+"\"mailto://rudi.timmer@mail.ch\">rudi.timmer@mail.ch</a>"
 msgstr ""
+"Copyright (c) 2018-2020 by <br> Rudi Timmermans  <br><br> Courriel : <a href="
+"\"mailto://rudi.timmer@mail.ch\">rudi.timmer@mail.ch</a>"
+
+#: ../qml/AboutPage.qml:25
+msgid "Special thanks to Alain Molteni for the icon and splash screen."
+msgstr "Remerciements particuliers à Alain Molteni pour l'icône et l'écran de démarrage"
+
+#: ../qml/AboutPage.qml:30
+msgid ""
+"Special thanks to testers, Tomas Öqvist, Sander Klootwijk, Joan CiberSheep, "
+"Mathijs Veen."
+msgstr ""
+"Remerciements particuliers aux testeurs, Tomas Öqvist, Sander Klootwijk, Joan CiberSheep, "
+"Mathijs Veen."
+
+#: ../qml/AboutPage.qml:35
+msgid "<b>The Sailbook app is not affiliated with Facebook inc.</b>"
+msgstr "<b>L'application Sailbook n'est pas affiliée à Facebook inc.</b>"
+
+#: ../qml/AboutPage.qml:42
+msgid "Donate"
+msgstr "Faire un don"
+
+#: ../qml/AboutPage.qml:50 ../qml/ConfirmDialog.qml:15
+#: ../qml/AlertDialog.qml:13 ../qml/PromptDialog.qml:32
+msgid "OK"
+msgstr "Valider"
+
+#: ../qml/ConfirmDialog.qml:6
+msgid "JavaScript Confirmation"
+msgstr "Confirmation JavaScript"
+
+#: ../qml/ConfirmDialog.qml:23 ../qml/ContentDownloadDialog.qml:94
+#: ../qml/PromptDialog.qml:43
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../qml/ContentDownloadDialog.qml:63
+msgid ""
+"Choose an application to open this file or add it to the downloads folder."
+msgstr ""
+"Choisissez une application pour ouvrir ce fichier ou l'ajouter dans le dossier des téléchargements."
+
+#: ../qml/ContentDownloadDialog.qml:69
+msgid "Choose an application"
+msgstr "Choisissez une application"
+
+#: ../qml/ContentDownloadDialog.qml:82
+msgid "Download"
+msgstr "Télécharger"
+
+#: ../qml/SadPage.qml:27
+msgid "Oops, something went wrong."
+msgstr "Oups, un problème est survenu."
+
+#: ../qml/SadPage.qml:33
+msgid "Reload"
+msgstr "Actualiser"
+
+#: ../qml/AlertDialog.qml:6
+msgid "JavaScript Alert"
+msgstr "Alerte JavaScript"
 
 #: ../qml/actions/SaveImage.qml:22
 msgid "Save image"
-msgstr ""
-
-#: ../qml/actions/CopyLink.qml:22
-msgid "Copy link"
-msgstr ""
+msgstr "Enregistrer l'image"
 
 #: ../qml/actions/ShareLink.qml:22
 msgid "Share…"
-msgstr ""
+msgstr "Partager…"
 
-#: ../qml/Main.qml:96
-msgid "Copy Link"
-msgstr ""
+#: ../qml/actions/SaveVideo.qml:4
+msgid "Save video"
+msgstr "Enregistrer la vidéo"
 
-#: ../qml/Main.qml:104
-msgid "Share Link"
-msgstr ""
+#: ../qml/actions/Copy.qml:22
+msgid "Copy"
+msgstr "Copier"
 
-#: ../qml/Main.qml:120
-msgid "Copy Image"
-msgstr ""
+#: ../qml/actions/CopyLink.qml:22
+msgid "Copy link"
+msgstr "Copier le lien"
 
-#: ../qml/Main.qml:126
-msgid "Download Image"
-msgstr ""
+#: ../qml/actions/Share.qml:4
+msgid "Share"
+msgstr "Partager"
 
-#: ../qml/QrCodeDialog.qml:11 ../qml/AboutPage.qml:13
-msgid "Close"
-msgstr ""
-
-#: ../qml/AboutPage.qml:10
-msgid "About Sailbook"
-msgstr ""
-
-#: ../qml/AboutPage.qml:11
-msgid ""
-"Sailbook: version 2.0.2 <br><br> Copyright (c) 2017-2018 <br> by Rudi "
-"Timmermans  <br><br> E-Mail: <a href=\"mailto://rudi.timmer@mail.ch\">rudi."
-"timmer@mail.ch</a> <br><br> Thanks to: <br><br> Alain Molteni <br> for the "
-"icon and splash screen <br><br>Sander Klootwijk,<br> Joan CiberSheep,"
-"<br>Mathijs Veen<br> for testing."
-msgstr ""
+#: ../qml/PromptDialog.qml:7
+msgid "JavaScript Prompt"
+msgstr "Invite de commande JavaScript"
