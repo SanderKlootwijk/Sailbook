@@ -33,8 +33,12 @@ MainView {
     property bool popupBlockerEnabled: true
     property bool fullscreen: false
 
-    property string appVersion : "v2.5"
+    property string appVersion : "v2.6"
     property var myScreenPixelDensity: Screen.pixelDensity
+
+    property var settings: Settings {
+        property bool useInternalBrowser: true
+        }
 
     Page {
         id: page
@@ -211,9 +215,13 @@ MainView {
             }
 
             onNewViewRequested: function(request) {
+              if (root.settings.useInternalBrowser) {
+                request.openIn(webview); 
+            } else {  
                 Qt.openUrlExternally(request.requestedUrl);
+               }
             }
-
+               
             Loader {
                 anchors {
                     fill: popupWebview
@@ -259,5 +267,5 @@ MainView {
             id: bottomMenu
             width: parent.width
         }
-    }
-}
+      }
+   }

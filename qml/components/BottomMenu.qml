@@ -29,7 +29,7 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/6
+            width: parent.width/7
             height: parent.height
 
             Icon {
@@ -49,7 +49,7 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/6
+            width: parent.width/8
             height: parent.height
 
             Icon {
@@ -63,13 +63,33 @@ Rectangle {
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
-                    webview.url = 'https://m.facebook.com/events'
+                    webview.url = 'https://touch.facebook.com/events'
                 }
             }
         }
 
         Item {
-            width: parent.width/6
+            width: parent.width/8
+            height: parent.height
+
+            Icon {
+                anchors.centerIn: parent
+                width: units.gu(3.2)
+                height: width
+                name: "home"
+                color: "#000000"
+            }
+
+            MouseArea {
+                anchors.fill: parent
+                onClicked: {
+                    webview.url = 'https://touch.facebook.com'
+                }
+            }
+        }
+
+        Item {
+            width: parent.width/8
             height: parent.height
 
             Icon {
@@ -89,7 +109,7 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/6
+            width: parent.width/8
             height: parent.height
 
             Icon {
@@ -109,7 +129,7 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/6
+            width: parent.width/8
             height: parent.height
 
             Icon {
@@ -129,7 +149,28 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/6
+            width: parent.width/8
+            height: parent.height
+
+            Icon {
+                anchors.centerIn: parent
+                width: units.gu(3.2)
+                height: width
+                name: "settings"
+                color: "#000000"
+            }
+
+            MouseArea {
+                anchors.fill: parent
+                onClicked: {
+                    PopupUtils.open(Qt.resolvedUrl("../SettingsPage.qml")
+                    )
+                }
+            }
+        }
+
+        Item {
+            width: parent.width/8
             height: parent.height
 
             Icon {

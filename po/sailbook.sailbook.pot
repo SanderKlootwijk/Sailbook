@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sailbook\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-18 15:07+0000\n"
+"POT-Creation-Date: 2020-03-19 13:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -140,6 +140,26 @@ msgstr ""
 
 #: ../qml/actions/Share.qml:4
 msgid "Share"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:11
+msgid "Sailbook settings"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:14
+msgid "Opening external link in"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:20
+msgid "External browser"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:21
+msgid "Sailbook"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:30
+msgid "Close"
 msgstr ""
 
 #: ../qml/HttpAuthenticationDialog.qml:7
