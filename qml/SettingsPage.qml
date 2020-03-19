@@ -25,6 +25,11 @@ Dialog {
                     onSelectedIndexChanged: root.settings.useInternalBrowser = selectedIndex
             }
 
+            Text {
+                wrapMode: Text.WordWrap
+                text: i18n.tr('<b>* When you choose Sailbook, you need to go alway back to your Facebook feeds with the Home key.</b>')
+            }
+
             Button {
                 color: UbuntuColors.green
                 text: i18n.tr('Close')

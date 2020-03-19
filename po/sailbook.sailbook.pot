@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sailbook\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-19 14:43+0000\n"
+"POT-Creation-Date: 2020-03-19 15:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -159,6 +159,12 @@ msgid "Sailbook"
 msgstr ""
 
 #: ../qml/SettingsPage.qml:30
+msgid ""
+"<b>* When you choose Sailbook, you need to go alway back to your Facebook "
+"feeds with the Home key.</b>"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:35
 msgid "Close"
 msgstr ""
 
