@@ -11,6 +11,7 @@ Dialog {
     title: i18n.tr("Sailbook settings")
 
             ListItems.Header {
+                Layout.alignment: Qt.AlignVCenter | Qt.AlignHCenter  
                 text: i18n.tr("Opening external link in")
             }
 
@@ -26,11 +27,14 @@ Dialog {
             }
 
             Text {
+                Layout.alignment: Qt.AlignVCenter | Qt.AlignHCenter  
                 wrapMode: Text.WordWrap
-                text: i18n.tr('<b>* When you choose Sailbook, you need to go alway back to your Facebook feeds with the Home key.</b>')
+                font.pointSize: 20
+                text: i18n.tr('<b>* When you choose Sailbook, you always need to use the Home key to return to your facebook feed.</b>')
             }
 
             Button {
+                Layout.alignment: Qt.AlignVCenter | Qt.AlignHCenter
                 color: UbuntuColors.green
                 text: i18n.tr('Close')
                 onClicked: PopupUtils.close(settingsDialog)
