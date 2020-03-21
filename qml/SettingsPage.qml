@@ -29,8 +29,11 @@ Dialog {
             Text {
                 Layout.alignment: Qt.AlignVCenter | Qt.AlignHCenter  
                 wrapMode: Text.WordWrap
-                font.pointSize: 20
-                text: i18n.tr('<b>* When you choose Sailbook, you always need to use the Home key to return to your facebook feed.</b>')
+                color: UbuntuColors.red
+                font.pointSize: 22
+                text: i18n.tr('<b>Inportent:</b><br><br>
+                               <b>URLs under page information are not redirected to the external browser.</b><br><br>
+                               <b>When you choose Sailbook, you always need to use the Home key to return to your facebook feed.</b>')
             }
 
             Button {
