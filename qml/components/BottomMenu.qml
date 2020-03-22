@@ -29,7 +29,7 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/7
+            width: parent.width/8
             height: parent.height
 
             Icon {
@@ -49,7 +49,7 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/7
+            width: parent.width/8
             height: parent.height
 
             Icon {
@@ -69,7 +69,7 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/7
+            width: parent.width/8
             height: parent.height
 
             Icon {
@@ -89,7 +89,27 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/7
+            width: parent.width/8
+            height: parent.height
+
+            Icon {
+                anchors.centerIn: parent
+                width: units.gu(3.2)
+                height: width
+                name: "reload"
+                color: "#000000"
+            }
+
+            MouseArea {
+                anchors.fill: parent
+                onClicked: {
+                    webview.reload()
+                }
+            }
+        }
+
+        Item {
+            width: parent.width/8
             height: parent.height
 
             Icon {
@@ -109,7 +129,7 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/7
+            width: parent.width/8
             height: parent.height
 
             Icon {
@@ -129,7 +149,7 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/7
+            width: parent.width/8
             height: parent.height
 
             Icon {
@@ -150,7 +170,7 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/7
+            width: parent.width/8
             height: parent.height
 
             Icon {

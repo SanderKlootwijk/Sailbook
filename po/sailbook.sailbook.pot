@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sailbook\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-20 17:22+0000\n"
+"POT-Creation-Date: 2020-03-22 19:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -158,12 +158,15 @@ msgstr ""
 msgid "Sailbook"
 msgstr ""
 
-#: ../qml/SettingsPage.qml:42
-msgid "Close"
+#: ../qml/SettingsPage.qml:34
+msgid ""
+"<b>Inportent:</b><br><br><b>URLs under page information are not redirected "
+"to the external browser.</b><br><br><b>When you choose Sailbook, you always "
+"need to use the Home key to return to your facebook feed.</b>"
 msgstr ""
 
-#: ../qml/SettingsPage.qml:34
-msgid "<b>Inportent:</b><br><br>"
+#: ../qml/SettingsPage.qml:40
+msgid "Close"
 msgstr ""
 
 #: ../qml/HttpAuthenticationDialog.qml:7
