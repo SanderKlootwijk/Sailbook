@@ -33,11 +33,11 @@ MainView {
     property bool popupBlockerEnabled: true
     property bool fullscreen: false
 
-    property string appVersion : "v2.7"
+    property string appVersion : "v2.8"
     property var myScreenPixelDensity: Screen.pixelDensity
 
     property var settings: Settings {
-        property bool useInternalBrowser: true
+        property bool useInternalBrowser: false
         }
 
     Page {
