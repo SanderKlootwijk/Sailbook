@@ -15,6 +15,14 @@ Dialog {
                 text: i18n.tr("Opening external link in")
             }
 
+            Text {
+                Layout.alignment: Qt.AlignVCenter | Qt.AlignHCenter  
+                wrapMode: Text.WordWrap
+                font.pointSize: 22
+                font.bold: true
+                text: i18n.tr('* URLs under page information are not redirected to the external browser.')
+            }
+
             OptionSelector {
                 expanded: true
                 model: [
@@ -29,9 +37,9 @@ Dialog {
             Text {
                 Layout.alignment: Qt.AlignVCenter | Qt.AlignHCenter  
                 wrapMode: Text.WordWrap
-                color: UbuntuColors.red
                 font.pointSize: 22
-                text: i18n.tr('<b>Inportant:</b><br><br><b>URLs under page information are not redirected to the external browser.</b><br><br><b>When you choose Sailbook, you always need to use the Home key to return to your facebook feed.</b>')
+                font.bold: true
+                text: i18n.tr('* When you choose Sailbook, you always need to use the Home key to return to your facebook feed.')
             }
 
             Button {
