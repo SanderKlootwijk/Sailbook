@@ -43,7 +43,7 @@ Rectangle {
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
-                    webview.url = 'https://m.facebook.com/groups'
+                    webview.url = 'https://m.facebook.com/groups_browse/your_groups/'
                 }
             }
         }
