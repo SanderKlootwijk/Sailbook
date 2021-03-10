@@ -9,7 +9,7 @@
             "desktop": "sailbook.desktop"
         }
     },
-    "version": "3.1",
+    "version": "3.2",
     "maintainer": "Rudi Timmermans <rudi.timmer@gmx.com>",
     "framework" : "ubuntu-sdk-16.04.4"
 }

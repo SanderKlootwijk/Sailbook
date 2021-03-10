@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sailbook\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-10 06:30+0000\n"
+"POT-Creation-Date: 2021-03-10 19:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../qml/AboutPage.qml:9
-msgid "About Sailbook"
+msgid "About Sailbook "
 msgstr ""
 
 #: ../qml/AboutPage.qml:10
@@ -49,8 +49,23 @@ msgstr ""
 msgid "Donate"
 msgstr ""
 
-#: ../qml/AboutPage.qml:50
+#: ../qml/AboutPage.qml:50 ../qml/AlertDialog.qml:13
+#: ../qml/ConfirmDialog.qml:15 ../qml/HttpAuthenticationDialog.qml:41
+#: ../qml/PromptDialog.qml:32
 msgid "OK"
+msgstr ""
+
+#: ../qml/AlertDialog.qml:6
+msgid "JavaScript Alert"
+msgstr ""
+
+#: ../qml/ConfirmDialog.qml:6
+msgid "JavaScript Confirmation"
+msgstr ""
+
+#: ../qml/ConfirmDialog.qml:23 ../qml/ContentDownloadDialog.qml:94
+#: ../qml/HttpAuthenticationDialog.qml:51 ../qml/PromptDialog.qml:43
+msgid "Cancel"
 msgstr ""
 
 #: ../qml/ContentDownloadDialog.qml:63
@@ -66,32 +81,21 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: ../qml/ContentDownloadDialog.qml:94
-msgid "Cancel"
+#: ../qml/HttpAuthenticationDialog.qml:7
+msgid "Authentication required."
 msgstr ""
 
-#: ../qml/Main.qml:37
-msgid "Sailbook Mobile "
+#. TRANSLATORS: %1 refers to the URL of the current website and %2 is a string that the website sends with more information about the authentication challenge (technically called "realm")
+#: ../qml/HttpAuthenticationDialog.qml:9
+msgid "The website at %1 requires authentication. The website says \"%2\""
 msgstr ""
 
-#: ../qml/Main.qml:42
-msgid "Forward"
+#: ../qml/HttpAuthenticationDialog.qml:21
+msgid "Username"
 msgstr ""
 
-#: ../qml/Main.qml:48
-msgid "Back"
-msgstr ""
-
-#: ../qml/Main.qml:54 ../qml/SadPage.qml:33
-msgid "Reload"
-msgstr ""
-
-#: ../qml/Main.qml:60
-msgid "Settings"
-msgstr ""
-
-#: ../qml/Main.qml:66
-msgid "About"
+#: ../qml/HttpAuthenticationDialog.qml:31
+msgid "Password"
 msgstr ""
 
 #: ../qml/MediaAccessDialog.qml:31
@@ -123,8 +127,16 @@ msgstr ""
 msgid "No"
 msgstr ""
 
+#: ../qml/PromptDialog.qml:7
+msgid "JavaScript Prompt"
+msgstr ""
+
 #: ../qml/SadPage.qml:27
 msgid "Oops, something went wrong."
+msgstr ""
+
+#: ../qml/SadPage.qml:33
+msgid "Reload"
 msgstr ""
 
 #: ../qml/SettingsPage.qml:11
@@ -147,16 +159,20 @@ msgstr ""
 msgid "Copy"
 msgstr ""
 
-#: ../qml/actions/CopyImage.qml:22
-msgid "Copy image"
-msgstr ""
-
 #: ../qml/actions/CopyLink.qml:22
 msgid "Copy link"
 msgstr ""
 
 #: ../qml/actions/SaveImage.qml:22
 msgid "Save image"
+msgstr ""
+
+#: ../qml/actions/SaveVideo.qml:4
+msgid "Save video"
+msgstr ""
+
+#: ../qml/actions/Share.qml:4
+msgid "Share"
 msgstr ""
 
 #: ../qml/actions/ShareLink.qml:22
