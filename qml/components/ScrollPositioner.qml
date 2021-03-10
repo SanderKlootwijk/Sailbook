@@ -20,9 +20,9 @@ RoundButton {
 
     anchors {
         right: parent.right
-        rightMargin: 20
+        rightMargin: 35
         bottom: parent.bottom
-        bottomMargin: 70
+        bottomMargin: 170
     }
 
 
