@@ -6,7 +6,7 @@ import QtQuick.Layouts 1.3
 Dialog {
             id: aboutDialog
             visible: false
-            title: i18n.tr("About Sailbook "+root.appVersion)
+            title: i18n.tr("About Sailbook")
             text: i18n.tr("This is a unofficial Facebook Client for Ubuntu Touch.")
 
             Image {

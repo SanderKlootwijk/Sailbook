@@ -34,7 +34,7 @@ MainView {
   Page {
     header: PageHeader {
         id: header
-        title: i18n.tr("Sailbook Mobile")
+        title: i18n.tr("Sailbook Mobile "+root.appVersion)
 
         trailingActionBar.actions: [
             Action {

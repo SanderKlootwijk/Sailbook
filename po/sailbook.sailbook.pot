@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sailbook\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-31 18:03+0000\n"
+"POT-Creation-Date: 2021-03-10 06:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,23 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../qml/PromptDialog.qml:7
-msgid "JavaScript Prompt"
-msgstr ""
-
-#: ../qml/PromptDialog.qml:32 ../qml/AboutPage.qml:50
-#: ../qml/ConfirmDialog.qml:15 ../qml/AlertDialog.qml:13
-#: ../qml/HttpAuthenticationDialog.qml:41
-msgid "OK"
-msgstr ""
-
-#: ../qml/PromptDialog.qml:43 ../qml/ConfirmDialog.qml:23
-#: ../qml/ContentDownloadDialog.qml:94 ../qml/HttpAuthenticationDialog.qml:51
-msgid "Cancel"
-msgstr ""
-
 #: ../qml/AboutPage.qml:9
-msgid "About Sailbook "
+msgid "About Sailbook"
 msgstr ""
 
 #: ../qml/AboutPage.qml:10
@@ -42,7 +27,7 @@ msgstr ""
 
 #: ../qml/AboutPage.qml:20
 msgid ""
-"Copyright (c) 2018-2020 by <br> Rudi Timmermans  <br><br> E-Mail: <a href="
+"Copyright (c) 2018-2021 by <br> Rudi Timmermans  <br><br> E-Mail: <a href="
 "\"mailto://rudi.timmer@gmx.com\">rudi.timmer@gmx.com</a>"
 msgstr ""
 
@@ -64,12 +49,49 @@ msgstr ""
 msgid "Donate"
 msgstr ""
 
-#: ../qml/ConfirmDialog.qml:6
-msgid "JavaScript Confirmation"
+#: ../qml/AboutPage.qml:50
+msgid "OK"
 msgstr ""
 
-#: ../qml/AlertDialog.qml:6
-msgid "JavaScript Alert"
+#: ../qml/ContentDownloadDialog.qml:63
+msgid ""
+"Choose an application to open this file or add it to the downloads folder."
+msgstr ""
+
+#: ../qml/ContentDownloadDialog.qml:69
+msgid "Choose an application"
+msgstr ""
+
+#: ../qml/ContentDownloadDialog.qml:82
+msgid "Download"
+msgstr ""
+
+#: ../qml/ContentDownloadDialog.qml:94
+msgid "Cancel"
+msgstr ""
+
+#: ../qml/Main.qml:37
+msgid "Sailbook Mobile "
+msgstr ""
+
+#: ../qml/Main.qml:42
+msgid "Forward"
+msgstr ""
+
+#: ../qml/Main.qml:48
+msgid "Back"
+msgstr ""
+
+#: ../qml/Main.qml:54 ../qml/SadPage.qml:33
+msgid "Reload"
+msgstr ""
+
+#: ../qml/Main.qml:60
+msgid "Settings"
+msgstr ""
+
+#: ../qml/Main.qml:66
+msgid "About"
 msgstr ""
 
 #: ../qml/MediaAccessDialog.qml:31
@@ -105,91 +127,38 @@ msgstr ""
 msgid "Oops, something went wrong."
 msgstr ""
 
-#: ../qml/SadPage.qml:33
-msgid "Reload"
+#: ../qml/SettingsPage.qml:11
+msgid "Sailbook settings"
 msgstr ""
 
-#: ../qml/ContentDownloadDialog.qml:63
-msgid ""
-"Choose an application to open this file or add it to the downloads folder."
+#: ../qml/SettingsPage.qml:14
+msgid "Zoom factor"
 msgstr ""
 
-#: ../qml/ContentDownloadDialog.qml:69
-msgid "Choose an application"
+#: ../qml/SettingsPage.qml:27
+msgid "* This settings takes effect after restarting Sailbook."
 msgstr ""
 
-#: ../qml/ContentDownloadDialog.qml:82
-msgid "Download"
-msgstr ""
-
-#: ../qml/actions/SaveVideo.qml:4
-msgid "Save video"
-msgstr ""
-
-#: ../qml/actions/CopyLink.qml:22
-msgid "Copy link"
+#: ../qml/SettingsPage.qml:32
+msgid "Close"
 msgstr ""
 
 #: ../qml/actions/Copy.qml:22
 msgid "Copy"
 msgstr ""
 
-#: ../qml/actions/ShareLink.qml:22
-msgid "Share…"
+#: ../qml/actions/CopyImage.qml:22
+msgid "Copy image"
+msgstr ""
+
+#: ../qml/actions/CopyLink.qml:22
+msgid "Copy link"
 msgstr ""
 
 #: ../qml/actions/SaveImage.qml:22
 msgid "Save image"
 msgstr ""
 
-#: ../qml/actions/Share.qml:4
-msgid "Share"
-msgstr ""
-
-#: ../qml/SettingsPage.qml:11
-msgid "Sailbook settings"
-msgstr ""
-
-#: ../qml/SettingsPage.qml:15
-msgid "Opening external link in"
-msgstr ""
-
-#: ../qml/SettingsPage.qml:23
-msgid ""
-"* URLs under page information are not redirected to the external browser."
-msgstr ""
-
-#: ../qml/SettingsPage.qml:29
-msgid "External browser"
-msgstr ""
-
-#: ../qml/SettingsPage.qml:30
-msgid "Sailbook"
-msgstr ""
-
-#: ../qml/SettingsPage.qml:42
-msgid ""
-"* When you choose Sailbook, you always need to use the Home key to return to "
-"your facebook feed."
-msgstr ""
-
-#: ../qml/SettingsPage.qml:48
-msgid "Close"
-msgstr ""
-
-#: ../qml/HttpAuthenticationDialog.qml:7
-msgid "Authentication required."
-msgstr ""
-
-#. TRANSLATORS: %1 refers to the URL of the current website and %2 is a string that the website sends with more information about the authentication challenge (technically called "realm")
-#: ../qml/HttpAuthenticationDialog.qml:9
-msgid "The website at %1 requires authentication. The website says \"%2\""
-msgstr ""
-
-#: ../qml/HttpAuthenticationDialog.qml:21
-msgid "Username"
-msgstr ""
-
-#: ../qml/HttpAuthenticationDialog.qml:31
-msgid "Password"
+#: ../qml/actions/ShareLink.qml:22
+msgid "Share…"
 msgstr ""
