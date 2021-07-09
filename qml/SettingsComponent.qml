@@ -15,8 +15,8 @@ Item{
         id: settings
     
         //Settings page
-        property real zoomFactor: 2.25
-        property real facebookZoomFactor: 2.25
+        property real zoomFactor: 1.75
+        property real facebookZoomFactor: 1.75
         
         //User data
         property bool firstRun: true

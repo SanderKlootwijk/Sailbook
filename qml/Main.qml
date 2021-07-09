@@ -29,7 +29,7 @@ MainView {
     property bool popupBlockerEnabled: true
     property bool fullscreen: false
 
-    property string appVersion : "v3.2"
+    property string appVersion : "v3.3"
     property var myScreenPixelDensity: Screen.pixelDensity
 
     Page {
@@ -185,13 +185,27 @@ MainView {
                 }
             }
 
-            onNewViewRequested: function(request) {
-              if (root.settings.useInternalBrowser) {
-                request.openIn(webview); 
-            } else {  
-                Qt.openUrlExternally(request.requestedUrl);
-               }
+        //handle click on links
+        onNewViewRequested: function(request) {
+            console.log(request.destination, request.requestedUrl)
+
+            var url = request.requestedUrl.toString()
+            //handle redirection links
+            if (url.startsWith('https://www.facebook.com')) {
+                //get query params
+                var reg = new RegExp('[?&]q=([^&#]*)', 'i');
+                var param = reg.exec(url);
+                if (param) {
+                    console.log("url to open:", decodeURIComponent(param[1]))
+                    Qt.openUrlExternally(decodeURIComponent(param[1]))
+                } else {
+                    Qt.openUrlExternally(url)
+                                    request.action = WebEngineNavigationRequest.IgnoreRequest;
+                }
+            } else {
+                Qt.openUrlExternally(url)
             }
+        }
                
             Loader {
                 anchors {
