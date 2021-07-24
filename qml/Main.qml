@@ -29,7 +29,7 @@ MainView {
     property bool popupBlockerEnabled: true
     property bool fullscreen: false
 
-    property string appVersion : "v3.3"
+    property string appVersion : "v3.4"
     property var myScreenPixelDensity: Screen.pixelDensity
 
     Page {
@@ -223,7 +223,7 @@ MainView {
                 asynchronous: true
             }
         }
-        
+                      
        SettingsComponent{
             id: appSettings
         }          
@@ -251,6 +251,10 @@ MainView {
           source: "ContentDownloadDialog.qml"
           asynchronous: true
         }
+        
+        KeyboardRectangle {
+          id: keyboardRect
+        }             
 
         BottomMenu {
             id: bottomMenu
