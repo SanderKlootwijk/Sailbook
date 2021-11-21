@@ -1,3 +1,3 @@
 #!/bin/bash
 
-clickable clean build review -a all
+clickable build --clean --arch all

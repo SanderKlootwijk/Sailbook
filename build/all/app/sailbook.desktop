@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Sailbook
+Exec=qmlscene %u qml/Main.qml
+Icon=img/icon.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+X-Ubuntu-Default-Department-ID=communication
+X-Ubuntu-Splash-Image=img/splash.png

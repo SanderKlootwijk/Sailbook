@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+361d38d6cff292137d95cb22ed839011 CMakeFiles/sailbook.desktop
+d016080766327ba7773188a61492244c po/CMakeFiles/pofiles_1
+d016080766327ba7773188a61492244c po/CMakeFiles/pofiles_2
+d016080766327ba7773188a61492244c po/CMakeFiles/pofiles_3
+d016080766327ba7773188a61492244c po/CMakeFiles/pofiles_4
+f99f18f6f95df56b8dae8f8f9a9a1547 po/CMakeFiles/sailbook.sailbook.pot
+03dcce28c10800fb84fe2b459b1313b4 po/de.gmo
+90533d1b852bccad1696bc6fe3cb7568 po/es.gmo
+5070ab4189e2569ad40e0b2f1d6c553e po/fr.gmo
+c6ed01a3110aa0a749d06a84e635826b po/nl.gmo
