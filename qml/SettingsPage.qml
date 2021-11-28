@@ -10,22 +10,42 @@ Dialog {
 
     title: i18n.tr("Sailbook settings")
 
-            SpinRange{
-                title: i18n.tr("Zoom factor") + ":"
-                valueRatio: 100
-                value: appSettings.facebookZoomFactor
-                onValueModified: {
-                appSettings.facebookZoomFactor = newValue
-             }
-         }
+         Component.onCompleted: {
+            selector.selectedIndex = appSettings.selectedIndex
+        }
 
-            Text {
-                Layout.alignment: Qt.AlignVCenter | Qt.AlignHCenter  
-                wrapMode: Text.WordWrap
-                font.pointSize: 24
-                font.bold: true
-                text: i18n.tr('* This settings takes effect after restarting Sailbook.')
-            }         
+        UT.OptionSelector {
+            id: selector
+            expanded: true
+            containerHeight: parent.height * 0.75
+            anchors.horizontalCenter: parent.horizontalCenter
+            model: [i18n.tr("Small"),i18n.tr("Normal"),i18n.tr("Large")]
+            onSelectedIndexChanged: {
+                switch(selector.selectedIndex) {
+                case 0: {
+                    webview.zoomFactor = 1.25
+                    appSettings.facebookZoomFactor = 1.25
+                    appSettings.selectedIndex = 0
+                    webview.zoomFactor = 1.25
+                    break;
+                }
+                case 1: {
+                    webview.zoomFactor = 1.75
+                    appSettings.facebookZoomFactor = 1.75
+                    appSettings.selectedIndex = 1
+                    webview.zoomFactor = 1.75
+                    break;
+                }
+                case 2: {
+                    webview.zoomFactor = 2.75
+                    appSettings.facebookZoomFactor = 2.75
+                    appSettings.selectedIndex = 2
+                    webview.zoomFactor = 2.75
+                    break;
+                }
+                }
+            }
+        }        
 
             Button {
                 Layout.alignment: Qt.AlignVCenter | Qt.AlignHCenter
