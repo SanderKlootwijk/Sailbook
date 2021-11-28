@@ -20,6 +20,10 @@ MainView {
         fill: parent
     }
 
+    Component.onCompleted: {
+        webview.zoomFactor = appSettings.facebookZoomFactor
+    }
+
     applicationName: "sailbook.sailbook"
     anchorToKeyboard: true
     automaticOrientation: true
@@ -77,7 +81,7 @@ MainView {
                 bottomMargin: units.gu(4)
             }
             
-                zoomFactor: String(webview.url).indexOf("https://www.facebook.com/") >= 0 ? appSettings.facebookZoomFactor : appSettings.zoomFactor
+                zoomFactor: 1.75 // String(webview.url).indexOf("https://www.facebook.com/") >= 0 ? appSettings.facebookZoomFactor : appSettings.zoomFactor
                 url: "https://www.facebook.com/"
 
              userScripts: [
